@@ -1,0 +1,175 @@
+.frame-child9 {
+  position: absolute;
+  top: 0;
+  left: -909.8px;
+  width: 829px;
+  height: 689px;
+  object-fit: cover;
+}
+.ng-k4 {
+  margin: 0;
+  width: 941px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.register-label1 {
+  width: 1347px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.vui-lng-nhp1 {
+  position: relative;
+  font-weight: 600;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.next-button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frame-child10,
+.separator {
+  position: relative;
+  max-width: 100%;
+}
+.frame-child10 {
+  height: 222.3px;
+  width: 1377.2px;
+  border-radius: 54.22px;
+  background-color: var(--color-darkslategray-200);
+  border: 10.8px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+  display: none;
+}
+.separator {
+  width: 948px;
+  line-height: 85px;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.next-button-parent,
+.rectangle-parent2,
+.register-label-group {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.rectangle-parent2 {
+  align-self: stretch;
+  border-radius: 54.22px;
+  background-color: var(--color-darkslategray-200);
+  border: 10.8px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+  flex-direction: row;
+  padding: var(--padding-34xl) var(--padding-41xl) var(--padding-35xl);
+  min-height: 222px;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+  font-size: var(--font-size-81xl);
+  color: var(--color-black);
+}
+.next-button-parent,
+.register-label-group {
+  flex-direction: column;
+}
+.next-button-parent {
+  align-self: stretch;
+  gap: var(--gap-47xl-4);
+  text-align: justify;
+  font-size: var(--font-size-56xl);
+}
+.register-label-group {
+  position: absolute;
+  top: 667px;
+  left: 287px;
+  width: 1377.2px;
+  gap: var(--gap-110xl);
+}
+.frame-child11 {
+  height: 249.4px;
+  width: 1377.2px;
+  position: relative;
+  border-radius: 75.91px;
+  background-color: var(--color-darkslategray-100);
+  display: none;
+  max-width: 100%;
+}
+.tip-tc1 {
+  position: relative;
+  font-weight: 600;
+  z-index: 1;
+}
+.rectangle-parent3 {
+  position: absolute;
+  top: 1489px;
+  left: 288px;
+  border-radius: 75.91px;
+  background-color: var(--color-darkslategray-100);
+  width: 1377.2px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-53xl) var(--padding-xl) var(--padding-52xl-4);
+  box-sizing: border-box;
+  max-width: 100%;
+  cursor: pointer;
+  font-size: var(--font-size-67xl-8);
+  color: var(--white);
+}
+.vector-group {
+  width: 1665.2px;
+  height: 1738.4px;
+  position: relative;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-131xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 925px) {
+  .ng-k4,
+  .vui-lng-nhp1 {
+    font-size: var(--font-size-41xl);
+  }
+  .separator {
+    font-size: var(--font-size-31xl);
+    line-height: 51px;
+  }
+  .tip-tc1 {
+    font-size: var(--font-size-24xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .ng-k4 {
+    font-size: var(--font-size-18xl);
+  }
+  .vui-lng-nhp1 {
+    font-size: var(--font-size-26xl);
+  }
+  .separator {
+    font-size: var(--font-size-11xl);
+    line-height: 34px;
+  }
+  .tip-tc1 {
+    font-size: var(--font-size-7xl);
+  }
+}

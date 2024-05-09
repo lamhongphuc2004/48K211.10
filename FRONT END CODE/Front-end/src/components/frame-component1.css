@@ -1,0 +1,104 @@
+.frame-child2,
+.input-fields {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: 10.84px;
+  background-color: var(--color-black);
+  border: 6px solid var(--color-black);
+}
+.input-fields-parent {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base-3);
+}
+.frame-child3,
+.frame-child4 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: 10.84px;
+}
+.frame-child3 {
+  background-color: var(--color-black);
+  border: 6px solid var(--color-black);
+}
+.frame-child4 {
+  background-color: var(--color-orange);
+}
+.frame-div,
+.rectangle-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base-3);
+}
+.rectangle-container {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: column;
+}
+.frame-div {
+  height: 168.1px;
+  width: 168.1px;
+  flex-direction: row;
+}
+.ng-dng-qun {
+  margin: 0;
+}
+.lechat-cat-coffee {
+  margin: 0;
+  font-weight: 600;
+}
+.ng-dng-qun-container {
+  align-self: stretch;
+  height: 231px;
+  position: relative;
+  display: inline-block;
+}
+.frame-container,
+.ng-dng-qun-l-nguyn-liu-le-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.ng-dng-qun-l-nguyn-liu-le-wrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-lg) 0 0;
+  box-sizing: border-box;
+  min-width: 688px;
+}
+.frame-container {
+  width: 1277px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-31xl-9);
+  text-align: left;
+  font-size: var(--font-size-41xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-noto-sans-new-tai-lue);
+}
+@media screen and (max-width: 1050px) {
+  .ng-dng-qun-container {
+    font-size: var(--font-size-29xl);
+  }
+  .ng-dng-qun-l-nguyn-liu-le-wrapper {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .frame-container {
+    gap: var(--gap-6xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .ng-dng-qun-container {
+    font-size: var(--font-size-17xl);
+  }
+}

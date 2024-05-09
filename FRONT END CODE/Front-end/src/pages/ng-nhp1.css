@@ -1,0 +1,111 @@
+.time2 {
+  width: 75px;
+  height: 97px;
+  position: relative;
+  border-radius: var(--br-13xl);
+  display: none;
+}
+.username-label-icon {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+  position: absolute;
+  left: 30px;
+  top: 40px;
+  transform: scale(1.104);
+}
+.input-container,
+.wrapper-username-label {
+  height: 769px;
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+}
+.wrapper-username-label {
+  width: 720px;
+  position: relative;
+  border-radius: var(--br-81xl);
+  flex-shrink: 0;
+  align-items: center;
+}
+.input-container {
+  width: 892px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.ng-nhp3 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+}
+.input-container-parent {
+  width: 941px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 36px;
+  max-width: 100%;
+}
+.input-container-parent,
+.ng-nhp-1,
+.ng-nhp-1-inner {
+  display: flex;
+  align-items: flex-start;
+}
+.ng-nhp-1-inner {
+  width: 1677px;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-131xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-montserrat);
+}
+.ng-nhp-1 {
+  width: 100%;
+  position: relative;
+  border-radius: 81.33px;
+  background-color: var(--white);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-158xl) 90.8px var(--padding-196xl) 137px;
+  box-sizing: border-box;
+  gap: 115.5px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1050px) {
+  .ng-nhp3 {
+    font-size: var(--font-size-41xl);
+  }
+  .ng-nhp-1 {
+    gap: 58px;
+    padding-left: var(--padding-49xl);
+    padding-right: 45px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .input-container-parent {
+    gap: var(--gap-lg);
+  }
+  .ng-nhp-1 {
+    gap: 29px;
+    padding-left: 34px;
+    padding-right: var(--padding-3xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .ng-nhp3 {
+    font-size: var(--font-size-18xl);
+  }
+}
